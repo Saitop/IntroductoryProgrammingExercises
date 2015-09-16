@@ -4,6 +4,15 @@ package com.exercises;
  * Created by hxlin on 9/14/15.
  */
 public class TrianglePrinter {
+    public static void main(String[] args) {
+
+        TrianglePrinter trianglePrinter = new TrianglePrinter();
+        trianglePrinter.printOneAsterisk();
+        trianglePrinter.printHorizontalAsterisksWithNumber(8);
+        trianglePrinter.printVerticalAsterisksWithNumber(3);
+        trianglePrinter.drawRightTriangle(3);
+
+    }
     public void printOneAsterisk() {
         System.out.println("*");
         System.out.println("--------------------");

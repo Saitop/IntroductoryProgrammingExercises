@@ -8,14 +8,22 @@ public class TrianglePrinter {
 
         TrianglePrinter trianglePrinter = new TrianglePrinter();
         trianglePrinter.printOneAsterisk();
+        System.out.println("--------------------");
+
         trianglePrinter.printHorizontalAsterisksWithNumber(8);
+        System.out.println("--------------------");
+
         trianglePrinter.printVerticalAsterisksWithNumber(3);
+        System.out.println("--------------------");
+
         trianglePrinter.drawRightTriangle(3);
+        System.out.println("--------------------");
+
 
     }
+
     public void printOneAsterisk() {
         System.out.println("*");
-        System.out.println("--------------------");
     }
 
     public void printHorizontalAsterisksWithNumber(int asterisk){
@@ -23,14 +31,12 @@ public class TrianglePrinter {
             System.out.print("* ");
         }
         System.out.println(" ");
-        System.out.println("--------------------");
     }
 
     public void printVerticalAsterisksWithNumber(int asterisk){
         for (int i = 0; i < asterisk ; i++) {
             System.out.println("*");
         }
-        System.out.println("--------------------");
     }
 
     public void drawRightTriangle(int asterisk){
